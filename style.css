@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background:url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color :hsl(225, 100%, 94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  
+}
+.summery-card{
+  border-radius: 10px;
+  max-width: 270px;
+  background-color: hsl(225, 100%, 98%);
+  text-align: center;
+  padding-bottom: 20px;
+  cursor: pointer;
+  
+  
+ 
+}
+
+
+.hero-image img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero-tex h1
+{
+  font-size: 20px;
+  margin: 20px 0px 10px ;
+
+}
+.hero-tex{
+  margin: 0 8px;
+  
+}
+
+.hero-tex p{
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 12px;
+  width: 100%;
+  padding: 0 10px;
+  
+}
+
+.price{
+  background-color: hsl(224, 79%, 95%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 20px 16px 10px;
+  gap: 10px;
+  border-radius: 8px;
+ font-size: 12px;
+  
+
+}
+.price p{
+  color: hsl(224, 23%, 55%);
+  font-size: 13px;
+}
+
+.price img{
+  width: 32px;
+}
+.price-plan{
+  margin-right: auto;
+}
+
+.paayment-btn button{
+  background-color:  hsl(245, 75%, 52%);
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+  border: none;
+  box-shadow: 0px 5px 10px hsl(245, 75%, 62%);
+}
+
+.paayment-btn button:hover{
+  background-color: hsl(245, 75%, 62%);
+  cursor: pointer;
+}
+.paayment-btn{
+  padding: 17px;
+  margin-bottom: 6px;
+}
+
+.cancel{
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+ 
+
+}
+
+.attribution{
+  margin-top: 20px;
+}
